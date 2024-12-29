@@ -2,6 +2,7 @@ import React from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Services } from './components/Services';
+import { Benefits } from './components/Benefits/Benefits';
 import { Contact } from './components/Contact';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <main>
         <Hero />
         <Services />
+        <Benefits />
         <Contact />
       </main>
       <footer className="bg-gray-50 py-8">
